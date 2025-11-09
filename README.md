@@ -22,7 +22,7 @@ This repository accompanies the IEEE conference paper:
 
 **"LLM-Assisted Test Automation: A Cognitive Software Testing Framework Using Generative AI"**
 
-*Author:* Cagri Temel, IEEE Senior Member  
+*Author:* Çağrı Temel, IEEE Senior Member  
 *Affiliation:* Grand Canyon University & Hezarfen LLC  
 *Contact:* CTemel@my.gcu.edu | cagritemel@ieee.org
 
@@ -52,7 +52,7 @@ CogniTest Framework
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/[YOUR-USERNAME]/cognitest-framework.git
+git clone https://github.com/cgrtml/cognitest-framework.git
 cd cognitest-framework
 
 # Create virtual environment
@@ -293,7 +293,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-**Cagri Temel**  
+**Çağrı Temel**  
 - Email: CTemel@my.gcu.edu | cagritemel@ieee.org
 - Affiliation: Grand Canyon University, Department of Computer Science
 - Position: Chief Technology Officer, Hezarfen LLC
@@ -303,78 +303,13 @@ For questions, issues, or collaboration opportunities, please open an issue or c
 
 ## 🔗 Links
 
+- [GitHub Repository](https://github.com/cgrtml/cognitest-framework)
+- [Documentation](https://github.com/cgrtml/cognitest-framework/wiki)
+- [Issues](https://github.com/cgrtml/cognitest-framework/issues)
 - [Paper (arXiv)](https://arxiv.org/abs/...) *(Coming Soon)*
-- [Documentation](https://github.com/[cgrtml]/cognitest-framework/wiki)
-- [Issues](https://github.com/[cgrtml]/cognitest-framework/issues)
 
 ---
 
 **⭐ Star this repository if you find it useful!**
-```
 
-**Cmd+S** ile kaydet.
-
----
-
-## ADIM 19: .gitignore Güncelle
-
-Zaten `.gitignore` dosyan var. Aç ve şunları **ekle:**
-```
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Virtual Environment
-venv/
-ENV/
-env/
-
-# PyCharm
-.idea/
-
-# VS Code
-.vscode/
-
-# Database files
-*.db
-*.sqlite
-*.sqlite3
-
-# Model cache
-.cache/
-models/
-
-# Experiment results
-data/results/*.json
-data/results/*.html
-
-# Pytest
-.pytest_cache/
-.coverage
-htmlcov/
-*.log
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Jupyter
-.ipynb_checkpoints/
+**Repository:** https://github.com/cgrtml/cognitest-framework
