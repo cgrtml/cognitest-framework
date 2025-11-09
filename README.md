@@ -22,7 +22,7 @@ This repository accompanies the IEEE conference paper:
 
 **"LLM-Assisted Test Automation: A Cognitive Software Testing Framework Using Generative AI"**
 
-*Author:* Çağrı Temel, IEEE Senior Member  
+*Author:* Cagri Temel, IEEE Senior Member  
 *Affiliation:* Grand Canyon University & Hezarfen LLC  
 *Contact:* CTemel@my.gcu.edu | cagritemel@ieee.org
 
@@ -264,7 +264,7 @@ If you use CogniTest in your research, please cite:
 ```bibtex
 @inproceedings{temel2025cognitest,
   title={LLM-Assisted Test Automation: A Cognitive Software Testing Framework Using Generative AI},
-  author={Temel, Çağrı},
+  author={Temel, Cagri},
   booktitle={Proceedings of the IEEE International Conference on Software Engineering},
   year={2025},
   organization={IEEE}
