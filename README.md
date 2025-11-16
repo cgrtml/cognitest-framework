@@ -37,14 +37,15 @@ https://doi.org/10.36227/techrxiv.176315879.96821044/v1
 ## 🏗️ Architecture
 
 CogniTest Framework
-├── Phase 1: Test Generation
-│   └── Natural language → Executable pytest tests
-├── Phase 2: Intelligent Execution
-│   └── Test execution with detailed tracing
-├── Phase 3: Log Interpretation
-│   └── Root cause analysis & suggestions
-└── Phase 4: Bug Classification
-    └── Automated severity scoring & explanation
++-- Phase 1: Test Generation
+|   \-- Natural language -> Executable pytest tests
++-- Phase 2: Intelligent Execution
+|   \-- Test execution with detailed tracing
++-- Phase 3: Log Interpretation
+|   \-- Root cause analysis and suggestions
+\-- Phase 4: Bug Classification
+    \-- Automated severity scoring and explanation
+
 
 
 ---
