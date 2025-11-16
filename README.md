@@ -36,17 +36,36 @@ https://doi.org/10.36227/techrxiv.176315879.96821044/v1
 
 ## 🏗️ Architecture
 
-CogniTest Framework
-├── Phase 1: Test Generation
-│   └── Natural language → executable pytest tests
-├── Phase 2: Intelligent Execution
-│   └── Test execution with detailed tracing
-├── Phase 3: Log Interpretation
-│   └── Root cause analysis & remediation hints
-└── Phase 4: Bug Classification
-    └── Automated severity scoring & explanation
+## CogniTest Framework Architecture
+```
+📋 Phase 1: Test Generation
+   └─ Natural language → executable pytest tests
 
+⚙️ Phase 2: Intelligent Execution
+   └─ Test execution with detailed tracing
 
+🔍 Phase 3: Log Interpretation
+   └─ Root cause analysis & remediation hints
+
+🏷️ Phase 4: Bug Classification
+   └─ Automated severity scoring & explanation
+```
+
+CogniTest implements a four-phase cognitive testing pipeline:
+Test Generation (Phase 1):
+Parses natural language requirements
+Generates executable pytest test cases
+Uses structured prompts and domain constraints
+Intelligent Execution (Phase 2):
+Runs generated tests with pytest
+Collects HTTP traces, DB state, and timing metrics
+Reduces flaky behavior via isolation and state reset
+Log Interpretation (Phase 3):
+Processes stack traces and logs via LLM
+Produces human-readable explanations and likely root causes
+Bug Classification (Phase 4):
+Assigns severity (Critical/High/Medium/Low) via multi-factor scoring
+Incorporates impact, frequency, and recovery difficulty
 
 
 ---
