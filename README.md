@@ -46,7 +46,6 @@ CogniTest Framework
 └── Phase 4: Bug Classification
 └── Automated severity scoring & explanation
 
-
 ---
 
 ## 🚀 Quick Start
